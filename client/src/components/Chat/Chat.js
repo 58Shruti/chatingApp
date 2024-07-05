@@ -22,6 +22,7 @@ const Chat = ({ location }) => {
 
 
   console.log("object")
+  
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
 
